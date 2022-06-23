@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
+    <title>The Dice Game</title>
+</head>
+<body>
+    <div id="diceGame">
+        <div id="title">
+            <header>
+                <h1 id="instruction">The Dice Game</h1>
+                <h2>Click 'roll dice' to begin</h2>
+            </header>
+        </div>
+        <div id="scoreInfo">
+            <h3 id="scoreTally">Current Total</h3>
+            <h5 id="score">0</h5>
+        </div>
+        <div id="gameTable">
+            <img id="dice" src="./img/dice1.png">
+            <audio id="gameAudio" src="./sounds/0004526.mp3"></audio>
+        </div>
+        <div id="button">
+            <button id="rollButton">Roll Dice!</button>
+        </div>
+        <div id="rules">
+            <h2>Rules</h2>
+            <p>Reach a score of 20 or more.</p>
+            <p>If you roll a 1, you're out of the door!</p>
+        </div>
+    </div>
+    <div><h4 class="overlay">Feeling lucky?<br>Press any key to enter!</h4></div>
+    <script src="./app.js"></script>
+</body>
+</html>

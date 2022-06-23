@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(./img/poker-background-with-royal-straight-flush-and-chips-on-green-casino-background-modern-poker-widescreen-wallpaper-vector.jpg);
+    object-fit: fill;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#diceGame { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    object-fit: contain;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.bg {
+    height: 100vh;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+h1 {
+    font-family: 'Fascinate', cursive;
+    font-size: 100px;
+    padding-bottom: 5px;
+    color: rgb(49, 6, 49);
+}
+
+h2 {
+    font-family: 'Fascinate', cursive;
+    font-size: 40px;
+    color: bisque;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-family: 'Fascinate', cursive;
+    font-size: 40px;
+}
+
+h5 {
+    font-family: 'Fascinate', cursive;
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Fascinate', cursive;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#dice {
+    border-radius: 20px;
+    width: 200px;
+}
+
+#rollButton {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Fascinate', cursive;
+    color: black;
+    background-color: rgb(220, 46, 46);
+}
+
+#rollButton:hover {
+    box-shadow: 0 0 60px 0;
+    width: 200px;
+    height: 80px;
+    transition-duration: 350ms;
+    transition-timing-function: linear;
+}
+
+.overlay {
+    position: fixed;
+    object-fit: fill;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+}
+.overlay.hide {
+    display: none;
+}
+
+h4 {
+    font-family: 'Fascinate', cursive;
+    font-size: 100px;
+    color: bisque;
+    display: none;
+}
